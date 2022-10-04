@@ -101,7 +101,7 @@ nav{
 .bg-white{
     padding: 150px 0;
     /* DEBUG */
-    background-color: black;
+    background-color: white;
 }
 
 .bd-grey > .sez-4-main{
@@ -240,11 +240,17 @@ footer{
 }
 
     .sez-1-footer > div{
-        flex-basis: calc(100% / 5);
+        flex-basis: calc(70% / 4);
         text-align: center;
         /* DEBUG */
         background-color: blue;
         border: 1px solid black;
+    }
+
+    #col-grande{
+        flex-basis: 35%;
+        /* DEBUG */
+        background-color: blueviolet;
     }
 
 
